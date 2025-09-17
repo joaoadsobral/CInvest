@@ -7,6 +7,7 @@ O **CInvest** é uma aplicação de apoio a investimentos automatizados que se c
 
 ## Links Importantes
 Para vídeo explicativo: https://youtu.be/ktDbGtygCtM
+
 Relatório: https://docs.google.com/document/d/1pC6FxgHunRGRcPO9eChuHRpOAgbJGb9q5wam18vwpaw/edit?pli=1&tab=t.0
 
 ## Tecnologias Escolhidas
@@ -22,6 +23,10 @@ Abaixo está uma lista não extensiva das principais funcionalidades suportadas 
 - Envio de ordens de compra e venda com base nos padrões detectados
 - Exibição dos resultados das análises e decisões de trading
 - Arquitetura modular com aplicação de Programação Orientada a Objeto
+
+## Guia para build local do sistema
+
+Para ajudar a fazer a build e setup local do sistema, o Cinvest tem uma [BUILD.md](https://github.com/joaoadsobral/CInvest/blob/main/BUILD.md), onde é ensinado tanto a como rodar o Backend como o Frontend do zero.
 
 ## Autores do Projeto
 - Itallo Augusto
