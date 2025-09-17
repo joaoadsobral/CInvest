@@ -1,30 +1,22 @@
-Ordem de Execução
-1 - Frontend
-2 - Python
-3 - C++
+### Pré-requisitos
 
-Comandos para rodar o Projeto : 
-g++ -std=c++17 -o cinvest.exe src/main.cpp src/TcpServer.cpp src/PatternDetector.cpp src/AppController.cpp src/utils/CandleParser.cpp -lws2_32
-.\cinvest.exe
-mudar o dll no libraries, IDE do Meta trader
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+
+Python (para os módulos de backend e scripts auxiliares)
+
+C++ (para os componentes de alto desempenho)
+
+Node.js (necessário para rodar o frontend em React)
+
+React (já incluso via Node, mas necessário para a interface)
+
+### Passo único para executar
+
+Após instalar os pré-requisitos, basta rodar o seguinte comando no terminal/prompt:
 
 .\start_project.bat
-Que faz com que :
 
-Tem que ter o node js instalado
-cd frontend
-cd trading-dashboard
-npm run dev
 
-Apos isso execute baixe o necessario para rodar a API em python, com
-pip install flask flask-cors
-Apos isso :
-cd backend
-cd src
-python tcp_api.py
+Esse script irá configurar e iniciar automaticamente todos os serviços do projeto (backend, frontend e módulos em C++).
 
-Em um terminal
-cd backend
-g++ -std=c++17 -o cinvest.exe src/main.cpp src/TcpServer.cpp src/PatternDetector.cpp src/AppController.cpp src/utils/CandleParser.cpp -lws2_32
-.\cinvest.exe
-.\CandleTCP.exe
+Caso tenha alguma dúvida, confira o video onde o projeto roda para entender mais sobre.
